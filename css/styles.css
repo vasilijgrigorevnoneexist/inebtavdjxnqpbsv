@@ -3,6 +3,26 @@
 html, body {
     overflow-x: hidden !important;
 }
+
+body {
+    background-image: url(/img/back.png);
+    background-repeat: no-repeat;
+    background-size: 1400px 730px;
+    background-position: top;
+}
+
+@media (max-width: 992px) {
+    body {
+        background-size: 1400px 800px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-size: 2000px 1050px;
+    }
+}
+
 body svg {
     padding: 0;
     margin: 0;
@@ -210,13 +230,7 @@ h1 {
 
 .navigation {
     width: 100%;
-    padding-top: 10px;
-    margin-bottom: 60px;
-	height: 55px;
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
-    position: fixed;
+    position: static;
     z-index: 999;
     top: 0;
 }
@@ -234,6 +248,14 @@ h1 {
     transition: color 0.4s ease;
 }
 
+.navigation a.scrollto, .navigation a.navigation_logo {
+    color: #ffffff;
+}
+
+.navigation_logo img {
+    margin-left: 14px;
+}
+
 .navigation a:hover {
     text-decoration: none;
 	font-size: 21px;
@@ -243,7 +265,7 @@ h1 {
 
 
 .navigation_mobile {
-    position: fixed;
+    position: fixed; /* new design */
     top: 0;
     width: 100%;
     padding-top: 10px;
@@ -251,9 +273,8 @@ h1 {
 	min-height: 55px;
     height: auto;
     z-index: 999;
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
+    background-image: url(../img/bg-nav.png);
+    background-size: 100%;
     
 }
 .navigation_mobile a {
@@ -287,8 +308,6 @@ h1 {
     height: 35px;
     outline: none;
     margin-top: -5px;
-}
-#menu_mobile: hover {
     cursor: pointer;
 }
 .nav_mobile-items {
@@ -316,7 +335,7 @@ h1 {
 @media (max-width: 576px) {
     
     #menu_mobile {
-        top: -33px; 
+        top: -27px; 
     }
     #social_fs {
         position: relative;
@@ -331,13 +350,13 @@ h1 {
 /*fs */
 
 #home {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .owl-carousel2 {
-    padding-top: 0px;
+    padding-top: 6px;
     padding-left: 0px;
-    width: 272px; 
+    width: 295px; 
     height: 555px;
     overflow-x: hidden; 
     overflow-y: hidden;
@@ -355,8 +374,8 @@ h1 {
         z-index: 9;
         background-image: url(../img/fs/s_iPhone_X.png);
         background-repeat: no-repeat;
-        width: 313px;
-        height: 612px;
+        width: 309px;
+        height: 607px;
         top: 48%; 
         left: 48%;
 	    -webkit-transform: translate(-46.2%,-46.2%);
@@ -364,8 +383,11 @@ h1 {
         transform: translate(-46.2%,-46.2%);
 }
 #social_fs {
-    position: relative;
-    bottom: 65px;
+    margin-bottom: 60px;
+}
+
+#social_fs img {
+    width: 65px;
 }
 
 @media (min-width: 992px) {
@@ -376,7 +398,7 @@ h1 {
         z-index: 9;
         background-image: url(../img/fs/s_iPhone_X.png);
         background-repeat: no-repeat;
-        width: 313px;
+        width: 295px;
         height: 612px;
         top: 48%; 
         left: 48%;
@@ -387,11 +409,11 @@ h1 {
     
     
     .owl-carousel2 {
-        padding-top: 0px;
+        padding-top: 42px;
         padding-left: 0px;
-        width: 263px; 
-        height: 563px;
-        overflow-x: hidden; 
+        width: 282px;
+        height: 600px;
+        overflow-x: hidden;
         overflow-y: hidden;
     }
 }
@@ -505,25 +527,25 @@ h1 {
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 0 !importent;
+    margin-top: 0 !important;
     position: relative;
     top: -10px;
 }
 .offer_title {
 	height: 35px;
 	font-family: MullerMedium;
-	font-size: 27px;
+	font-size: 30px;
 	line-height: 1.48;
 	text-align: left;
-	color: #ee4b58;
+	color: #ffffff;
 }
 .offer_title_mobile {
 	height: 35px;
 	font-family: MullerMedium;
-	font-size: 27px;
+	font-size: 30px;
 	line-height: 1.48;
 	text-align: left;
-	color: #ee4b58;
+	color: #ffffff;
 	display: none;
 }
 .offer_subtitle {
@@ -532,19 +554,23 @@ h1 {
 	font-weight: 500;
 	line-height: 1.33;
 	text-align: left;
-	color: #5300ff;
+	color: #ffffff;
 }
 
 .big-logo_row {
-    margin-top: 37px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.logo_row {
+    margin-top: 40px;
     margin-bottom: 25px;
 }
 
 .fs-buttons_row {
     margin-bottom: 0px;
+    margin-top: 35px;
 }
-
-
 
 .fs_app_img {
     -webkit-transition: all 3s ease;
@@ -553,19 +579,23 @@ h1 {
 }
 
 .white-paper_block {
-	width: 210px;
+	width: 175px;
 	height: 55px;
 	border-radius: 5px;
-	background-color: #ffffff;
-	border: solid 2px #242138;
-	margin-top: 12px;
+    border: solid 3px rgba(255, 255 , 255, .5);
+    margin-top: 3px;
 }
+
+.white-paper_block .dropdown-toggle::after {
+    margin-left: 5px !important;
+}
+
 .white-paper {
 	font-family: MullerMedium;
 	font-size: 22px;
 	letter-spacing: -0.2px;
 	text-align: left;
-	color: #07090b;
+	color: #ffffff;
 }
 .white-paper:hover {
 	font-family: MullerMedium;
@@ -573,17 +603,44 @@ h1 {
 	letter-spacing: -0.2px;
 	text-align: left;
     text-decoration: none;
-	color: #07090b;
+	color: #ffffff;
 }
 
-.buy-tokens_block {
+.white-paper.dropdown-item {
+    color: #000000;
+}
+
+/* .buy-tokens_block {
 	width: 224px;
 	height: 57px;
 	border-radius: 100px;
 	background-color: #5733ff;
 	border: solid 2px #1e00a9;
     padding: 10px;
+} */
+
+.buy-tokens_block {
+	width: 224px;
+	height: 57px;
+	border-radius: 100px;
+	background-color: #0886ff;
+    padding: 10px;
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    font-weight: 700;
+    padding-top: 13px;
 }
+
+.buy-tokens_block:hover {
+	background-color: #148cff;
+}
+
+.buy-tokens_block:active {
+	background-color: #0078ec;
+}
+
 .buy-tokens {
 	font-family: MullerRegular;
 	font-size: 22px;
@@ -624,16 +681,6 @@ h1 {
     text-decoration: none;
 	color: #ffffff;
 }
-.live-demo_block {
-	width: 218px;
-	height: 64px;
-	border-radius: 10px;
-	background-color: #5733FF;
-	border: solid 2px #1E00A9;
-    padding: 15px;
-    margin: 0 auto;
-    margin-top: 0px;
-}
 .live-demo {
 	font-family: MullerRegular;
 	font-size: 22px;
@@ -669,7 +716,7 @@ h1 {
 
 @media (max-width: 992px) {
     #home {
-        margin-top: 85px;
+        margin-top: 20px;
     }
     .fs_iphone_app {
         margin-top: 66px;
@@ -681,7 +728,9 @@ h1 {
 
 @media (max-width: 769px) {
     
-    
+    #home {
+        margin-top: 0;
+    }
     .navigation {
         margin-bottom: 40px;
     }
@@ -706,18 +755,15 @@ h1 {
     
     .big-logo_row img {
         width: 220px;
-    }
-    
-    
-    .white-paper_block {
-        width: 268px;
-    }
+    }  
+
     .buy-tokens_block {
         width: 212px;
     }
     
     .investitions_row {
         margin-bottom: 50px;
+        margin-top: 60px;
     }
 }
 
@@ -725,10 +771,11 @@ h1 {
     
     .fs-buttons_row {
         text-align: center;
-        margin-top: 150px !important;
+        margin-top: 10px !important;
     }
     .white-paper_block {
         width: 240px;
+        display: inline-block;
     }
     .buy-tokens_block {
         width: 200px;
@@ -749,7 +796,8 @@ h1 {
     
     .wp_col {
         text-align: center;
-        /*margin-bottom: 20px;*/
+        margin-left: 0;
+        margin-top: 20px;
     }
     .bt_col {
         text-align: center;
@@ -763,12 +811,11 @@ h1 {
     
     .fs-buttons_row {
         text-align: center;
-        margin-top: 150px !important;
+        margin-top: 10px !important;
     }
     
     
     .white-paper_block {
-        display: inline-block;
         width: 240px;
     }
     .buy-tokens_block {
@@ -818,10 +865,9 @@ z-index: 99999;
 /*news*/
 
 .news_articles {
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
-    /*padding-bottom: 73px;*/
+    background-image: url(/img/back-token.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 60px;
 	height: 190px;
 }
@@ -928,11 +974,11 @@ z-index: 99999;
 }
 .instagram-h3 {
 	font-family: MullerMedium;
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: 500;
 	letter-spacing: -0.3px;
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 }
 
 
@@ -969,7 +1015,9 @@ z-index: 99999;
 }
 @media (max-width: 769px) {
     
-    
+    .instagram-h3 {
+        font-size: 21px;
+    }
 }
 @media (max-width: 576px) {
     .bloger-video_block {
@@ -1076,10 +1124,9 @@ z-index: 99999;
 
 /*functionality end*/
 .token {
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
-    /*padding-bottom: 73px;*/
+    background-image: url(/img/back-token.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 40px;
 }
 
@@ -2330,11 +2377,13 @@ z-index: 99999;
 
 
 .subscribe {
-    margin-top: 120px;
-	height: 420px;
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
+    margin-top: 60px;
+    height: 500px;
+    background-image: url(../img/bg-subscribe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    background-position: center;
 }
 
 .subscribe h1 {
@@ -3132,7 +3181,7 @@ z-index: 99999;
 }
 
 .accordion_block {
-    box-shadow: 0 0 83px 0 rgba(83, 0, 255, 0.5);
+    box-shadow: 0 0 83px 0 #08bfff;
 }
 .card-header {
     
