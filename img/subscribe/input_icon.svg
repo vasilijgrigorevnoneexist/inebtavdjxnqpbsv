@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Monoreto-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-487.000000, -4618.000000)">
+        <g id="Subscribe" transform="translate(0.000000, 4363.000000)" fill="#CCCCCC">
+            <g id="e-mail" transform="translate(467.000000, 235.000000)">
+                <g id="layouts" transform="translate(20.000000, 18.000000)">
+                    <g id="Icons/System/User" transform="translate(0.000000, 2.000000)">
+                        <path d="M13.6746,11.46335 L10.2751,10.67885 C9.8216,10.57435 9.5001,10.17035 9.5001,9.70435 L9.5001,9.48685 C10.9651,8.46735 12.0001,6.09785 12.0001,3.99985 C12.0001,1.23835 10.2091,-0.00015 8.0001,-0.00015 C5.7911,-0.00015 4.0001,1.23835 4.0001,3.99985 C4.0001,6.09785 5.0346,8.46735 6.5001,9.48685 L6.5001,9.70435 C6.5001,10.17035 6.1786,10.57435 5.7251,10.67885 L2.3256,11.46335 C0.9641,11.77735 0.0001,12.98935 0.0001,14.38635 L0.0001,14.99985 C0.0001,15.55235 0.4476,15.99985 1.0001,15.99985 L15.0001,15.99985 C15.5521,15.99985 16.0001,15.55235 16.0001,14.99985 L16.0001,14.38635 C16.0001,12.98935 15.0356,11.77735 13.6746,11.46335" id="icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="418px" viewBox="0 0 254 418" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Card 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 231.270694 0 254 208.861857 231.270694 417.723714 0 417.723714 22.7293065 208.861857"></polygon>
+    </defs>
+    <g id="Monoreto-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-233.000000, -2982.000000)">
+        <g id="Roadmap" transform="translate(177.000000, 2892.000000)">
+            <g id="Timeline" transform="translate(0.000000, 90.000000)">
+                <g id="Card-1" transform="translate(56.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill-opacity="1" fill="#faecf3" xlink:href="#path-1"></use>
+                    <g id="Group-14" mask="url(#mask-2)">
+                        <g transform="translate(39.000000, 23.000000)">
+                            <text id="Этап-1" font-family="MullerMedium, Muller" font-size="25" font-weight="400" letter-spacing="-0.4239131">
+                                <tspan x="0" y="25.4237597" fill="#1E1B37">Этап 1</tspan>
+                            </text>
+                            <text id="Январь-‘18" font-family="MullerMedium, Muller" font-size="23" font-weight="400" letter-spacing="-0.390000045">
+                                <tspan x="0" y="331.884615" fill="#1E1B37">Январь ‘18</tspan>
+                            </text>
+                            <text id="Mauris-nec-rhoncus-e" font-family="MullerRegular, Muller" font-size="19" font-weight="normal" letter-spacing="-0.220753193">
+                                <tspan x="0" y="87.7430587" fill="#333333">Mauris nec rhoncus </tspan>
+                                <tspan x="0" y="110.743059" fill="#333333">eros. Duis interdum.</tspan>
+                                <tspan x="0" y="133.743059" fill="#333333">Nunc purum. Etiam </tspan>
+                                <tspan x="0" y="156.743059" fill="#333333">ultrices mollis enim, </tspan>
+                                <tspan x="0" y="179.743059" fill="#333333">sit amet tempor est.</tspan>
+                                <tspan x="0" y="202.743059" fill="#333333">Pellentesque </tspan>
+                                <tspan x="0" y="225.743059" fill="#333333">tincidunt arcu ante, </tspan>
+                                <tspan x="0" y="248.743059" fill="#333333">eget fermentum </tspan>
+                                <tspan x="0" y="271.743059" fill="#333333">sem viverra et.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

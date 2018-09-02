@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="259px" height="251px" viewBox="0 0 259 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-71.4%" y="-71.4%" width="242.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="100" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.933333333   0 0 0 0 0.294117647   0 0 0 0 0.345098039  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Monoreto-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-304.000000, -1228.000000)" fill-opacity="0.8">
+        <g id="Killer-feature" transform="translate(230.000000, 1054.000000)" fill="#FFFFFF">
+            <g id="Insta-video" transform="translate(0.000000, 90.000000)">
+                <g id="Video" filter="url(#filter-1)">
+                    <polygon id="Triangle" transform="translate(212.445860, 209.500000) rotate(90.000000) translate(-212.445860, -209.500000) " points="212.44586 169.382979 252.573248 249.617021 172.318471 249.617021"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

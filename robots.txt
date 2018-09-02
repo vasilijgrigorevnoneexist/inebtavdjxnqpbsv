@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://monoreto.com//sitemap.xml
+Crawl-delay: 2

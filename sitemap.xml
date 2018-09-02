@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with www.majento.ru -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://monoreto.com/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>1.00</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/rus</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/arabic/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/chn/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/vi/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/tr/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/fr/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://monoreto.com/kor/</loc>
+	<lastmod>2018-04-14T11:34:57+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+</urlset>
