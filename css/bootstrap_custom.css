@@ -9,7 +9,7 @@
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link:active {
     border: 0;
     background-color: #fff;
-    box-shadow: 0 0 83px 0 rgba(83, 0, 255, 0.5);
+    box-shadow: 0 0 83px 0 rgba(8, 191, 255, 0.5);
 }
 
 .nav-tabs .nav-link {

@@ -299,7 +299,7 @@ h1 {
 #menu_mobile {
     position: absolute; 
     right: 10px; 
-    background-image: url(../img/menu-button.svg);
+    background-image: url(../img/menu-button.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -354,9 +354,9 @@ h1 {
 }
 
 .owl-carousel2 {
-    padding-top: 6px;
+    padding-top: 44px;
     padding-left: 0px;
-    width: 295px; 
+    width: 295px;
     height: 555px;
     overflow-x: hidden; 
     overflow-y: hidden;
@@ -409,7 +409,7 @@ h1 {
     
     
     .owl-carousel2 {
-        padding-top: 42px;
+        padding-top: 78px;
         padding-left: 0px;
         width: 282px;
         height: 600px;
@@ -559,7 +559,7 @@ h1 {
 
 .big-logo_row {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .logo_row {
@@ -579,7 +579,7 @@ h1 {
 }
 
 .white-paper_block {
-	width: 175px;
+	width: 187px;
 	height: 55px;
 	border-radius: 5px;
     border: solid 3px rgba(255, 255 , 255, .5);
@@ -610,14 +610,9 @@ h1 {
     color: #000000;
 }
 
-/* .buy-tokens_block {
-	width: 224px;
-	height: 57px;
-	border-radius: 100px;
-	background-color: #5733ff;
-	border: solid 2px #1e00a9;
-    padding: 10px;
-} */
+.wp_col {
+    margin-left: 16px;
+}
 
 .buy-tokens_block {
 	width: 224px;
@@ -724,6 +719,9 @@ h1 {
         text-align: center;
         margin-bottom: 66px;
     }
+    .wp_col {
+        margin-left: 22px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -736,16 +734,15 @@ h1 {
     }
     
     .offer_title {
-        text-align: center;
         height: auto;
+        font-size: 27px;
     }
     
     .offer_title_mobile {
-        text-align: center;
         height: auto;
     }
     .offer_subtitle {
-        text-align: center;
+        font-size: 27px;
     }
     .big-logo_row {
         margin-top: 30px;
@@ -867,7 +864,7 @@ z-index: 99999;
 .news_articles {
     background-image: url(/img/back-token.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin-top: 60px;
 	height: 190px;
 }
@@ -911,8 +908,8 @@ z-index: 99999;
     box-shadow: 0px 0px 200px 0px rgba(238,75,88,0.3);
 }
 .bloger-video_right-shadow {
-    -webkit-box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3);
-    box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3);
+    -webkit-box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
+    box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
 }
 
 .monoreto-hgroup {
@@ -921,9 +918,9 @@ z-index: 99999;
 }
 .monoreto-hgroup:after {
     content: "";
-    background-image: url(../img/bloger/MON_LIKE_NEW.svg);
+    background-image: url(../img/bloger/MON_LIKE_NEW.png);
     background-repeat: no-repeat;
-	width: 70px;
+	width: 89px;
 	height: 70px;
 	mix-blend-mode: darken;
     position: absolute;
@@ -935,7 +932,7 @@ z-index: 99999;
 	font-family: Phenomena-Bold;
 	font-size: 49px;
 	text-align: center;
-	color: #5300ff;
+	color: #08bfff;
 }
 .monoreto-h3 {
     font-family: MullerMedium;
@@ -953,10 +950,10 @@ z-index: 99999;
 }
 .instagram-hgroup:after {
     content: "";
-    background-image: url(../img/bloger/Instalike.png);
+    background-image: url(../img/bloger/Instalike2.png);
     background-size: cover;
     opacity: .75;
-	width: 70px;
+	width: 89px;
 	height: 70px;
 	mix-blend-mode: multiply;
     position: absolute;
@@ -977,8 +974,8 @@ z-index: 99999;
 	font-size: 23px;
 	font-weight: 500;
 	letter-spacing: -0.3px;
-	text-align: center;
-	color: #ffffff;
+    color: #ffffff;
+    padding-top: 5px;
 }
 
 
@@ -1014,9 +1011,11 @@ z-index: 99999;
     }*/
 }
 @media (max-width: 769px) {
-    
     .instagram-h3 {
         font-size: 21px;
+    }
+    .white-paper_block {
+        width: 197px;
     }
 }
 @media (max-width: 576px) {
@@ -1024,7 +1023,7 @@ z-index: 99999;
         width: 300px;
     }
     .monoreto-hgroup:after {
-        right: -15px;
+        right: -30px;
     }
     .offer_title {
         display: inline-block;
@@ -1032,7 +1031,7 @@ z-index: 99999;
     }
     
     .instagram-hgroup:after {
-        right: -20px;
+        right: -35px;
     }
     
     
@@ -1049,7 +1048,7 @@ z-index: 99999;
     }
     
     .instagram-hgroup:after {
-        right: -10px;
+        right: -30px;
     }
     .offer_title {
         display: none;
@@ -1072,8 +1071,8 @@ z-index: 99999;
     display: block;
     margin: 0 auto;
     border-radius: 40px;
-    -webkit-box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3);
-    box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3); 
+    -webkit-box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
+    box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
     margin-bottom: 12px;
 }
 .functionality_block h2 {
@@ -1083,7 +1082,7 @@ z-index: 99999;
 	font-weight: 500;
 	letter-spacing: -0.3px;
 	text-align: center;
-	color: #5300ff;
+	color: #08bfff;
     margin-bottom: 15px;
 }
 .functionality_block p {
@@ -1126,7 +1125,7 @@ z-index: 99999;
 .token {
     background-image: url(/img/back-token.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin-top: 40px;
 }
 
@@ -1141,7 +1140,7 @@ z-index: 99999;
 	font-weight: 500;
 	letter-spacing: -0.4px;
 	text-align: center;
-	color: #5d06f5;
+	color: #08bfff;
     margin-bottom: 26px;
 }
 .token p {
@@ -1161,10 +1160,10 @@ z-index: 99999;
 }
 
 .token_link {
-    color: #5733ff;
+    color: #08bfff;
 }
 .token_link:hover {
-    color: #5733ff;
+    color: #08bfff;
 }
 .sm_code {
     height: 500px;
@@ -1282,7 +1281,7 @@ z-index: 99999;
 	font-weight: 500;
 	line-height: 1.04;
 	text-align: left;
-	color: #5300ff;
+	color: #08bfff;
 }
 .reall p {
 	font-family: MullerMedium;
@@ -2006,13 +2005,13 @@ z-index: 99999;
 
 
 .seo_img {
-    background: url(../img/team/kirill2.jpg) no-repeat;
+    background: url(../img/team/kirill2.png) no-repeat;
     background-size: cover;
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3);
-    box-shadow: 0px 0px 200px 0px rgba(102,102,255,0.3);
+    -webkit-box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
+    box-shadow: 0px 0px 200px 0px rgba(8,191,255,0.3);
 }
 
 .seo_block_description {
@@ -2377,13 +2376,11 @@ z-index: 99999;
 
 
 .subscribe {
-    margin-top: 60px;
-    height: 500px;
-    background-image: url(../img/bg-subscribe.png);
-    background-size: contain;
+    margin-top: 120px;
+	height: 420px;
+    background-image: url(/img/back-token.png);
     background-repeat: no-repeat;
-    background-size: 95% 100%;
-    background-position: center;
+    background-size: cover;
 }
 
 .subscribe h1 {
@@ -2446,7 +2443,7 @@ z-index: 99999;
 	width: 212px;
 	height: 55px;
 	border-radius: 8px;
-	background-color: #5733ff;
+	background-color: #0886ff;
 	font-family: MullerRegular;
 	font-size: 25px;
 	font-weight: 500;
