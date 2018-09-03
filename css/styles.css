@@ -579,11 +579,12 @@ h1 {
 }
 
 .white-paper_block {
-	width: 187px;
+	width: 207px;
 	height: 55px;
 	border-radius: 5px;
     border: solid 3px rgba(255, 255 , 255, .5);
     margin-top: 3px;
+    margin-left: -20px;
 }
 
 .white-paper_block .dropdown-toggle::after {
@@ -780,6 +781,7 @@ h1 {
     .white-paper {
         display: inline-block;
         font-size: 20px;
+        margin-left: -22px;
     }
     .buy-tokens {
         font-size: 20px;
@@ -971,7 +973,7 @@ z-index: 99999;
 }
 .instagram-h3 {
 	font-family: MullerMedium;
-	font-size: 23px;
+	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: -0.3px;
     color: #ffffff;
@@ -1491,15 +1493,15 @@ z-index: 99999;
         
         .roadmap-section .timeline-marker:before {
             background: #2eb6f7;
-            border: 3px solid transparent;
+            border: 9px solid transparent;
             border-radius: 100%;
             content: '';
             display: block;
-            height: 15px;
+            height: 19px;
             position: absolute;
             top: 4px;
-            left: 0;
-            width: 15px;
+            left: -2px;
+            width: 19px;
             -webkit-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
             -o-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
             transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
@@ -1511,7 +1513,7 @@ z-index: 99999;
             background: #2eb6f7;
             display: block;
             position: absolute;
-            top: 18px;
+            top: 23px;
             bottom: -6px;
             left: 6px;
         }
@@ -1522,7 +1524,7 @@ z-index: 99999;
         
         .roadmap-section .timeline-item:not(.period):hover .timeline-marker:before {
             background: transparent;
-            border: 3px solid #2eb6f7;
+            border: 4px solid #2eb6f7;
         }
         
         .roadmap-section .timeline-content {
@@ -1944,22 +1946,30 @@ z-index: 99999;
             font-family: MullerMedium;
         }
 
-.roadmap-section .timeline-item:not(.period):hover .timeline-marker:before {
+/* .roadmap-section .timeline-item:not(.period):hover .timeline-marker:before {
     background-color: #ff5c5c;
     border: #ff5c5c;
-}
+} */
 
 .roadmap-section .timeline-marker:before {
-    background-color: #FF5C5C;
+    background-color: #2eb6f7;
 }
 .roadmap-section .timeline-marker:after {
-    background-color: #FF5C5C;
+    background-color: #c2da6d;
 }
 .roadmap-section .timeline-content .timeline-title.flag {
-    background-image: -webkit-gradient(linear, left top, right top, from(#ff5c5c), to(#5300ff));
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#ff5c5c), to(#5300ff));
     background-image: -webkit-linear-gradient(left, #ff5c5c, #5300ff);
     background-image: -o-linear-gradient(left, #ff5c5c, #5300ff);
-    background-image: linear-gradient(to right, #ff5c5c, #5300ff);
+    background-image: linear-gradient(to right, #ff5c5c, #5300ff); 
+    background-image: linear-gradient(to right, #00aeef, #c2da6d);*/
+    background: -moz-linear-gradient(45deg, #00aeef 0%, #c2da6d 40%, #c2da6d 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #00aeef), color-stop(40%, #c2da6d), color-stop(100%, #c2da6d)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, #00aeef 0%, #c2da6d 40%, #c2da6d 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, #00aeef 0%, #c2da6d 40%, #c2da6d 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #00aeef 0%, #c2da6d 40%, #c2da6d 100%); /* ie10+ */
+    background: linear-gradient(45deg, #00aeef 0%, #c2da6d 40%, #c2da6d 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2da6d', endColorstr='#00aeef',GradientType=1 ); /* ie6-9 */
 }
 .roadmap-section .timeline-content .timeline-title.flag:before {
     display: none;
@@ -3182,9 +3192,9 @@ z-index: 99999;
 }
 .card-header {
     
-	background-image: -webkit-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: -o-radial-gradient(0 100%, circle, #fff4f4, #f3edff);
-	background-image: radial-gradient(circle at 0 100%, #fff4f4, #f3edff);
+	background-image: -webkit-radial-gradient(0 100%, circle, #f2fbff, #e6f8ff);
+	background-image: -o-radial-gradient(0 100%, circle, #f2fbff, #e6f8ff);
+	background-image: radial-gradient(circle at 0 100%, #f2fbff, #e6f8ff);
 }
 
 .card-header_title {
