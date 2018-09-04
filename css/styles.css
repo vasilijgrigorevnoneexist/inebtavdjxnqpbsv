@@ -1528,6 +1528,13 @@ z-index: 99999;
             bottom: -6px;
             left: 6px;
         }
+
+        .roadmap-section .timeline-marker.ending:before {
+            content: none;
+        }
+        .roadmap-section .timeline-marker.ending:after {
+            top: 6px;
+        }
         
         .timeline-item:last-child .roadmap-section .timeline-marker:after {
             content: none;
