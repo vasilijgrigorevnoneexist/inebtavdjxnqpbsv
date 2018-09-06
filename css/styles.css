@@ -780,9 +780,6 @@ h1 {
 
 @media (max-width: 576px) {
     
-    .investitions_row {
-        margin-top: 140px;
-    }
     .fs-buttons_row {
         text-align: center;
         margin-top: 10px !important;
@@ -790,15 +787,12 @@ h1 {
     .white-paper_block {
         width: 240px;
         display: inline-block;
+        margin-left: 0;
     }
     .buy-tokens_block {
         width: 200px;
     }
-    .white-paper_block .dropdown {
-        margin-left: 7px;
-    }
     .white-paper {
-        display: inline-block;
         font-size: 20px;
     }
     .buy-tokens {
@@ -820,7 +814,7 @@ h1 {
         text-align: center;
     }
     .live-demo-button {
-        margin-left: -28px;
+        margin-left: 0;
     }
 }
 
