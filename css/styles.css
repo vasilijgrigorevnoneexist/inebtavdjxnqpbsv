@@ -3222,6 +3222,8 @@ z-index: 99999;
 	letter-spacing: -0.3px;
 	color: #1e1b37;
     text-decoration: none;
+    white-space: normal;
+    text-align: left;
 }
 .card-header_title:hover {
 	font-family: MullerMedium;
